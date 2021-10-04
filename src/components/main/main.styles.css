@@ -1,0 +1,27 @@
+.main {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+  background: inherit;
+  z-index: 10;
+}
+
+.main__wrapper {
+	width: min(54vw, 800px);
+	margin: 20px;
+}
+
+.main__cards {
+	display: grid;
+  	grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  	grid-gap: var(--space-md);
+  	justify-items: stretch;
+	margin-bottom: var(--space-xl);
+}
+
+.main .footer {
+	margin-top: calc(var(--space-xl) * 2.5);
+}
+
+
+

@@ -1,0 +1,30 @@
+.temperature-units-toggle {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: var(--space-xl);
+}
+
+.temperature-units-toggle .unit {
+	font-size: var(--text-md);
+	font-weight: 700;
+	color: var(--black-2);
+	line-height: 14px;
+	padding: var(--space-xs);
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: var(--white);
+}
+
+.temperature-units-toggle .unit > span {
+	margin-left: -1px;
+}
+
+.temperature-units-toggle .unit:first-child {
+	margin-right: var(--space-sm);
+}
+
+.temperature-units-toggle .unit:last-child {
+	background-color: var(--gray-3);
+	color: var(--white);
+}
