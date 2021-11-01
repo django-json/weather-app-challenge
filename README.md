@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Weather App Challenge</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://weather-app-devchallenge.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/django-json/weather-app-challenge">
       Solution
     </a>
     <span> | </span>
@@ -37,38 +37,41 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![weather-challenge-screenshot1](https://user-images.githubusercontent.com/44185999/139618873-368de54c-9cdd-402c-a9fa-9a91c9981e88.png)
+![weather-challenge-screenshot2](https://user-images.githubusercontent.com/44185999/139618886-4758db7d-f59d-4bb8-b211-65ddd86f5a46.png)
+![weather-challenge-screenshot3](https://user-images.githubusercontent.com/44185999/139618894-b04c7dca-7659-4465-8c9f-3e49d33eef8b.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- You can check the demo [here](https://weather-app-devchallenge.netlify.app).
+- In this challenge, I worked with another [third-party API](https://www.metaweather.com/) to fetched the weather data of a city display it in the given UI design. It is also my first time to use a Geolocation API to get the user's location and display their city weather information using that fetched API information which I thought that it would be difficult but actually is easy to implement.
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv) was to build an application to complete the given user stories:
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv) was to build an application to complete the given user stories.
+[x] User story: I can see city weather as default, preferably my current location
+[x] User story: I can search for city
+[x] User story: I can see weather of today and the next 5 days
+[x] User story: I can see the date and location of the weather
+[x] User story: I can see according to image for each type of weather
+[x] User story: I can see the min and max degree each day
+[x] User story: I can see wind status and wind direction
+[x] User story: I can see humidity percentage
+[x] User story: I can see a visibility indicator
+[x] User story: I can see the air pressure number
+[x] User story(optional): I can request my current location weather
+[x] User story(optional): I can convert temperature in Celcius to Fahrenheit and vice versa
 
 ## How To Use
-
-<!-- Example: -->
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/django-json/weather-app-challenge
 
 # Install dependencies
 $ npm install
@@ -79,14 +82,10 @@ $ npm start
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
-
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [DevChallenges.io](https://devchallenges.io)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@django-json](https://{github.com/django-json}
