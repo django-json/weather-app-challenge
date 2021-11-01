@@ -42,7 +42,7 @@
 ![weather-challenge-screenshot3](https://user-images.githubusercontent.com/44185999/139618894-b04c7dca-7659-4465-8c9f-3e49d33eef8b.png)
 
 - You can check the demo [here](https://weather-app-devchallenge.netlify.app).
-- In this challenge, I worked with another [third-party API](https://www.metaweather.com/) to fetched the weather data of a city display it in the given UI design. It is also my first time to use a Geolocation API to get the user's location and display their city weather information using that fetched API information which I thought that it would be difficult but actually is easy to implement.
+- In this challenge, I worked with another [third-party API](https://www.metaweather.com/) to fetched the weather data of a city and display it in the given UI design. It is also my first time to use a Geolocation API to get the user's location and display their city weather information using that fetched API information which I thought that it would be difficult but actually is easy to implement.
 
 ### Built With
 
