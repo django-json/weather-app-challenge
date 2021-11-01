@@ -7,13 +7,14 @@
 .temperature-units-toggle .unit {
 	font-size: var(--text-md);
 	font-weight: 700;
-	color: var(--black-2);
+	color: var(--white);
 	line-height: 14px;
 	padding: var(--space-xs);
 	width: 32px;
 	height: 32px;
 	border-radius: 50%;
-	background-color: var(--white);
+	background-color: var(--gray-3);
+	cursor: pointer;
 }
 
 .temperature-units-toggle .unit > span {
@@ -24,7 +25,14 @@
 	margin-right: var(--space-sm);
 }
 
-.temperature-units-toggle .unit:last-child {
-	background-color: var(--gray-3);
-	color: var(--white);
+.temperature-units-toggle .unit--active {
+	background-color: var(--white);
+	color: var(--black-2)
+}
+
+@media screen and (max-width: 767.98px) {
+	.temperature-units-toggle {
+		margin-top: var(--space-lg);
+		margin-bottom: calc(1.3 * var(--space-md));
+	}
 }

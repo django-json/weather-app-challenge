@@ -1,0 +1,25 @@
+.search-navigation-drawer {
+	flex: 0 0 320px;
+	background-color: var(--black-3);
+	min-height: 100vh;
+	padding: var(--space-sm) var(--space-md);
+}
+
+.search-navigation-drawer__close {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: var(--space-lg);
+}
+
+.search-navigation-drawer__close .material-icons {
+	font-size: 28px;
+	cursor: pointer;
+}
+
+.search-navigation-drawer__close .material-icons:hover {
+	color: var(--red);
+}
+
+.search-navigation-drawer .searchbar {
+	margin-bottom: calc(var(--space-xl) * 1.2);
+}

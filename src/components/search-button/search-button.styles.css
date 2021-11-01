@@ -1,0 +1,15 @@
+.search-button {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 14px var(--space-md);
+	color: var(--white);
+	background-color: var(--blue);
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.search-button:hover {
+	background-color: #233bc0;
+	transition: .5s;
+}

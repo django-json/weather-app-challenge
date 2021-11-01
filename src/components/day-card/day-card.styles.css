@@ -3,7 +3,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	text-align: center;
-	padding: var(--space-md);
+	padding: var(--space-md) var(--space-sm);
 	background: var(--black-3);
 }
 
@@ -23,7 +23,7 @@
 
 .day-card__temperature-minmax {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .day-card__temperature-minmax > span:last-child {

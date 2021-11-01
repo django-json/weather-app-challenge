@@ -39,11 +39,11 @@
 .todays-highlights__highlight .todays-highlights__direction {
 	font-size: var(--text-xs);
 	font-weight: 500;
-	margin-top: var(--space-lg);
+	margin-top: var(--space-sm);
 }
 
 .todays-highlights__direction .material-icons {
-	font-size: var(--text-sm);
+	font-size: var(--text-md);
 	padding: 8px;
 	margin-right: 10px;
 	border-radius: 50%;
@@ -57,6 +57,7 @@
 }
 
 .todays-highlights__progress-bar-labels span {
+	display: block;
 	font-size: var(--text-xxs);
 	font-weight: 700;
 	color: var(--gray-5);
@@ -66,4 +67,10 @@
 	display: flex;
 	justify-content: flex-end;
 	color: var(--gray-5);
+}
+
+@media screen and (max-width: 767.98px) {
+	.todays-highlights__wrapper {
+		grid-gap: var(--space-md);
+	}
 }

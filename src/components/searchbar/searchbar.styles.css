@@ -1,0 +1,10 @@
+.searchbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.searchbar  .search-input {
+	flex: 1 1 auto;
+	margin-right: var(--space-xs);
+}

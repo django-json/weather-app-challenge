@@ -21,10 +21,18 @@
 }
 
 .sidebar__search {
-	padding: var(--space-xs) 15px;
-	font-size: var(--text-sm);
 	background-color: var(--gray-2);
 	box-shadow: var(--shadow-gray);
+	padding: var(--space-xs) 15px;
+	font-size: var(--text-sm);
+	color: var(--white);
+}
+
+.sidebar__search:hover,
+.sidebar__heading .material-icons:hover,
+.sidebar__heading .material-icons:focus {
+	background-color: var(--gray-3);
+	transition: .3s;
 }
 
 .sidebar__today {
@@ -33,6 +41,7 @@
 
 .sidebar__image {
 	width: 100%;
+	height: 300px;
 	padding: 60px var(--space-xl);
 	position: relative;
 	overflow: hidden;
@@ -61,10 +70,6 @@
 	padding-top: var(--space-sm);
 }
 
-.sidebar__valueunit {
-	margin-bottom: var(--space-sm);
-}
-
 .sidebar__value {
 	font-size: 144px;
 	margin: 0;
@@ -80,7 +85,8 @@
 	font-size: var(--text-lg);
 	font-weight: 600;
 	color: var(--gray-5);
-	margin-bottom: calc(var(--space-sm) + 36px);
+	margin-top: var(--text-xl);
+	margin-bottom: 80px;
 }
 
 .sidebar__datetimeplace {

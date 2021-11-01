@@ -3,23 +3,45 @@ import React from "react";
 import "./main.styles.css";
 
 import TemperatureUnitsToggle from "../temperature-units-toggle/temperature-units-toggle.component";
-import DayCard from "../day-card/day-card.component";
+import DayCardContainer from "../day-card/day-card.container";
 import TodaysHighlights from "../todays-highlights/todays-highlights.component";
 import Footer from "../footer/footer.component";
 
-function Main() {
+function Main({
+	cityTodaysWeather,
+	cityForecastWeather,
+	currentTemperatureUnit,
+	toggleTemperatureUnit,
+}) {
+	const {
+		wind_speed,
+		wind_direction,
+		wind_direction_compass,
+		air_pressure,
+		humidity,
+		visibility,
+	} = cityTodaysWeather;
 	return (
 		<div className="main">
 			<div className="main__wrapper">
-				<TemperatureUnitsToggle />
+				<TemperatureUnitsToggle
+					currentTemperatureUnit={currentTemperatureUnit}
+					toggleTemperatureUnit={toggleTemperatureUnit}
+				/>
 				<div className="main__cards">
-					<DayCard />
-					<DayCard />
-					<DayCard />
-					<DayCard />
-					<DayCard />
+					<DayCardContainer
+						cityForecastWeather={cityForecastWeather}
+						currentTemperatureUnit={currentTemperatureUnit}
+					/>
 				</div>
-				<TodaysHighlights />
+				<TodaysHighlights
+					wind_speed={wind_speed}
+					wind_direction={wind_direction}
+					wind_direction_compass={wind_direction_compass}
+					air_pressure={air_pressure}
+					humidity={humidity}
+					visibility={visibility}
+				/>
 				<Footer />
 			</div>
 		</div>
