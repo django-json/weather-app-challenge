@@ -43,6 +43,7 @@
 
 - You can check the demo [here](https://weather-app-devchallenge.netlify.app).
 - In this challenge, I worked with another [third-party API](https://www.metaweather.com/) to fetched the weather data of a city and display it in the given UI design. It is also my first time to use a Geolocation API to get the user's location and display their city weather information using that fetched API information which I thought that it would be difficult but actually is easy to implement.
+- Please do not forget to visit https://cors-anywhere.herokuapp.com to enable this app to work with the API else an error will occur.
 
 ### Built With
 
