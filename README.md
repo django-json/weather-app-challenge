@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/django-json/weather-app-challenge">
+    <a href="https://github.com/django-json/weatherappchallenge">
       Solution
     </a>
     <span> | </span>
